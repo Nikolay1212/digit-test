@@ -1,0 +1,10 @@
+POST localhost:8081/message
+Content-Type: application/json
+
+{
+  "text": ""
+}
+
+###
+
+GET localhost:8081/message/last
